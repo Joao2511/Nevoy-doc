@@ -1,0 +1,24 @@
+site_name: Campus Multiplataforma
+site_description: "Documentação do Campus Multiplataforma"
+site_author: "Sua Equipe"
+repo_url: https://github.com/seu-repo/Campus-Multiplataforma-Doc
+theme:
+  name: material
+  palette:
+    primary: red
+    accent: light-blue
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+nav:
+  - Home: index.md
+  - Lean Inception:
+      - Introdução: lean_inception/index.md
+      - Etapa 1: lean_inception/etapa1.md
+      - Etapa 2: lean_inception/etapa2.md
+      - Etapa 3: lean_inception/etapa3.md
+extra_css:
+  - assets/styles/extra.css
