@@ -1,0 +1,31 @@
+site_name: 'Campus Multimídia'  # Nome do site, obrigatório
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'  # Cor principal
+    accent: 'red'  # Cor secundária
+  logo: 'images/logo.png'  # Caminho para a logo
+  features:
+    - navigation.tabs  # Ativa o menu no topo
+    - navigation.tabs
+    - navigation.indexes
+  font:
+    text: Roboto  # Fonte do texto
+    code: Fira Code  # Fonte do código
+
+nav:
+  - Home: index.md
+  - Lean Inception: 
+    - lean_inception.md
+    - Kick-off: lean-inception/kickoff.md
+    - Dia 1: lean-inception/day1.md
+    - Dia 2: lean-inception/day2.md
+    - Dia 3: lean-inception/day3.md
+    - Dia 4: lean-inception/day4.md
+  
+  - Planejamento: planejamento.md
+  - Produto: produto.md
+  - Treinamentos: treinamentos.md
+  - Reuniões Monitoramento: reunioes_monitoramento.md
+  - Encerramento: encerramento.md
+
